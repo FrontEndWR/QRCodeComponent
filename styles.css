@@ -1,0 +1,43 @@
+body {
+    background-color: rgba(160, 210, 250, 0.714);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: white;
+    width: 300px;
+    height: 475px;
+    padding: 15px;
+    margin: auto;
+}
+
+.card__code {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.card__title {
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 0;
+}
+
+.card__info {
+    color: gray;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 0;
+}
